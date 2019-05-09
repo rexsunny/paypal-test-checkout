@@ -3,6 +3,8 @@
 ?>
 <html>
 <head>
+<title>Sandbox - PayPal demo complete page</title>
+
 <style>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 

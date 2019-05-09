@@ -1,5 +1,7 @@
 <html>
 <head>
+<title>Sandbox - PayPal demo check out page</title>
+
   <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
   <script>
         // Render the PayPal button into #paypal-button-container
