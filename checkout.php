@@ -19,8 +19,9 @@
             // Finalize the transaction
             onApprove: function(data, actions) {
                 return actions.order.capture().then(function(details) {
+                  alert('Transaction completed by ' + details.payer.name.given_name);
                     // Show a success message to the buyer
-		    window.location = "complete.php?id="+details.id;
+		              window.location = "complete.php?id="+details.id;
                 });
             }
 
